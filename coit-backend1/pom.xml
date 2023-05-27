@@ -46,7 +46,7 @@
 	<distributionManagement>
 		<repository>
 			<id>coit-backend1-release</id>
-			<name>coit-backend1-release</name>
+			<name>coit-backend1-relase</name>
 			<url>http://13.233.116.78:8081/repository/coit-backend1-relase/</url>
 		</repository>
 		<snapshotRepository>
