@@ -6,11 +6,11 @@ pipeline{
                 sh 'cd coit-frontend && npm install && npm run build'
             }
         }
-        stage("Setup Env"){
-            steps{
-                sh "sudo apt-update && sudo apt-get install -y apache2"
-            }
-        }
+//         stage("Setup Env"){
+//             steps{
+//                 sh "sudo apt-update && sudo apt-get install -y apache2"
+//             }
+//         }
         stage("Deploy"){
             steps{
                 sh "cd coit-frontend && cp build/* /var/www/html/"
